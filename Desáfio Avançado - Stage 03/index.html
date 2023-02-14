@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Mentoria Avançado</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+  <div class="principal-box">
+
+    <header>
+
+      <h1>Avalie sua Mentoria</h1>
+      
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+      <div class="balao-avaliacao">
+
+        <img src="images/estrelasmarcadas.svg" alt="estrelas preenchidas">
+        <img src="images/estrelasmarcadas.svg" alt="estrelas preenchidas">
+        <img src="images/estralasdesmarcadas.svg" alt="estrelas sem preenchimento">
+        <img src="images/estralasdesmarcadas.svg" alt="estrelas sem preenchimento">
+        <img src="images/estralasdesmarcadas.svg" alt="estrelas sem preenchimento">
+
+
+      
+      </div>
+
+    </header>
+
+    <div class="owncolor-wrapper">
+        
+      <legend>Informações Pessoais</legend>
+    
+    </div>
+
+    <form>
+
+      <div class="personal-wrapper">
+        
+
+        
+        <div class="namesurname-wrapper">
+
+          <div class="input-wrapper">
+            
+            <label for="name">Nome</label>
+            
+            <input type="text" id="name"/>
+
+          </div>
+
+          <div class="input-wrapper">
+
+            <label for="surname">Sobrenome</label>
+            
+            <input type="text" id="surname"/>
+            
+          </div>
+       
+        </div>
+        
+        <div class="input-wrapper">
+          
+          <label for="email">E-mail <span>(Digite um e-mail válido)</span></label>
+          
+          <input type="email" id="email"/>
+          
+        </div>
+        
+      </div>
+
+      <div class="legend-wrapper">
+        
+        <legend>Informações do Mentoria</legend>
+        
+        <div class="input-wrapper">
+          
+          <label for="mentor">Selecione quem foi o seu mentor</label>
+          
+          <select id="mentor">
+
+            <option value="mentor1">Mestre Splinter</option>
+            <option value="mentor2">Senhor Miyagi</option>
+            <option value="mentor3">Mestre Yoda</option>
+
+          </select>
+        
+        </div>
+          
+        <div class="input-wrapper">
+
+          <label for="feedback">Feedback sobre o mentor</label>
+          
+          <input type="text" id="feedback"/>
+          
+        </div>
+                
+      </div>
+
+      <div class="checkbox-wrapper"> 
+  
+        <input type="checkbox" id="doubts">
+          
+        <label type="checkbox" for="doubts">
+
+          Todas as minhas dúvidas foram esclarecidas durante a mentoria.
+
+        </label>
+
+        </input>
+    
+      </div>
+
+      <div class="legend-wrapper">
+  
+        <legend>Agendando Próxima Mentoria</legend>
+
+        <div class="schedule-wrapper">
+          
+          <div class="input-wrapper">
+          
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+          
+            <input type="date" id="date"/>
+        
+          </div>  
+        
+          <div class="input-wrapper">
+
+            <label for="start">Das</label>
+          
+            <input type="time" id="start"/>
+        
+          </div>
+        
+          <div class="input-wrapper">
+          
+            <label for="end">Até</label>
+          
+            <input type="time" id="end"/>
+        
+          </div>
+
+        </div>
+
+      </div>
+
+      <button>
+
+        Salvar
+
+      </button>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>
